@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap");
+
+body {
+  background-color: #ffd829b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#burger {
+  margin-top: 12px;
+  width: 400px;
+}
+#burger #top-bun {
+  height: 100px;
+  border-radius: 900px 900px 10px 10px;
+  background-color: #a27732;
+  border-top: 9px solid #906725;
+}
+#burger #lettuce {
+  border-radius: 8px;
+  background-color: #80d041;
+  height: 8px;
+  border-bottom: 3px solid #0f6d12;
+}
+#burger #tomato {
+  border-radius: 14px;
+  background-color: #f13233;
+  height: 20px;
+  border-bottom: 5px solid #940c0e;
+}
+#burger #onion {
+  border-radius: 8px;
+  background-color: #b95381;
+  height: 13px;
+  border-bottom: 4px solid #7e1846;
+}
+#burger #cheese {
+  background-color: #e8ea02;
+  border-radius: 10px;
+  height: 15px;
+  border-bottom: 5px solid #eab902;
+}
+#burger #beef {
+  border-radius: 15px;
+  background-color: #603102;
+  height: 30px;
+  border-bottom: 16px solid #402408;
+}
+#burger #bottom-bun {
+  background-color: #a27732;
+  border-radius: 10px 10px 50px 50px;
+  height: 60px;
+  border-bottom: 11px solid #724d12;
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 0px;
+  font-family: "Noto Nastaliq Urdu", serif;
+  color: #333;
+}
+
+.description {
+  font-size: 20px;
+  color: #666;
+  margin-top: 25px;
+}
+
+.order-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #2ecc71;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.order-button:hover {
+  background-color: #3498db;
+}
